@@ -21,4 +21,14 @@ public class WebController {
     public String redirect() {
         return "redirect:/pages/final.html";//重定向
     }
+
+    @RequestMapping(value = "/redirect1", method = RequestMethod.GET)
+    public String redirect1() {
+        return "redirect:finalPage";
+    }
+
+    @RequestMapping(value = "/finalPage", method = RequestMethod.GET)
+    public String finalPage() {
+        return "final";
+    }
 }
