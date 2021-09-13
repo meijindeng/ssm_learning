@@ -20,4 +20,8 @@
         <property name="prefix" value="/WEB-INF/pages/" />
         <property name="suffix" value=".jsp" />
     </bean>
+
+    <!--标记来映射静态页面-->
+    <mvc:resources mapping="/pages/**" location="/WEB-INF/pages/"/>
+    <mvc:annotation-driven/>
 </beans>
