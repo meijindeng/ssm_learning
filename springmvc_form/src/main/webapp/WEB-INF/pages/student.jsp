@@ -7,7 +7,7 @@
 <body>
 
 <h2>Student Information</h2>
-<form:form method="POST" action="/FormHandling/addStudent">
+<form:form method="POST" action="/springmvc_form/addStudent">
     <table>
         <tr>
             <td><form:label path="name">名字：</form:label></td>
