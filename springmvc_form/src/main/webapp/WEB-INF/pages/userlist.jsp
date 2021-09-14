@@ -24,6 +24,14 @@
         <td>是否订阅新闻</td>
         <td>${receivePaper}</td>
     </tr>
+    <tr>
+        <td>喜欢的技术/框架</td>
+        <td> <% String[] favoriteFrameworks = (String[])request.getAttribute("favoriteFrameworks");
+            for(String framework: favoriteFrameworks) {
+                out.print(framework);
+            }
+        %></td>
+    </tr>
 </table>
 </body>
 </html>

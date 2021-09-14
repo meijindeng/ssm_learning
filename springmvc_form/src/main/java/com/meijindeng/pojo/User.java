@@ -13,6 +13,8 @@ public class User {
 
     private boolean receivePaper;
 
+    private String [] favoriteFrameworks;
+
     public String getUsername() {
         return username;
     }
@@ -43,5 +45,13 @@ public class User {
 
     public void setReceivePaper(boolean receivePaper) {
         this.receivePaper = receivePaper;
+    }
+
+    public String[] getFavoriteFrameworks() {
+        return favoriteFrameworks;
+    }
+
+    public void setFavoriteFrameworks(String[] favoriteFrameworks) {
+        this.favoriteFrameworks = favoriteFrameworks;
     }
 }
