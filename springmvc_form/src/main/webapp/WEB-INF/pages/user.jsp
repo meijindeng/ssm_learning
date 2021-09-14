@@ -48,6 +48,10 @@
             </form:select></td>
         </tr>
         <tr>
+            <td><form:label path="skills">技术：</form:label></td>
+            <td><form:select path="skills" items="${skillsList}" multiple="true" /></td>
+        </tr>
+        <tr>
             <td colspan="2">
                 <input type="submit" value="提交"/>
             </td>

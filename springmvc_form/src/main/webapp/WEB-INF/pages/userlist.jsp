@@ -44,6 +44,14 @@
         <td>国家：</td>
         <td>${country}</td>
     </tr>
+    <tr>
+        <td>技术：</td>
+        <td><%String[] skills = (String[]) request.getAttribute("skills");
+                for (String skill : skills) {
+                    out.println(skill);
+                }%>
+        </td>
+    </tr>
 </table>
 </body>
 </html>
