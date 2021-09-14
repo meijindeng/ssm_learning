@@ -17,6 +17,8 @@ public class User {
 
     private String gender;//性别
 
+    private String favoriteNumber;//喜欢的数字
+
     public String getUsername() {
         return username;
     }
@@ -63,5 +65,13 @@ public class User {
 
     public void setGender(String gender) {
         this.gender = gender;
+    }
+
+    public String getFavoriteNumber() {
+        return favoriteNumber;
+    }
+
+    public void setFavoriteNumber(String favoriteNumber) {
+        this.favoriteNumber = favoriteNumber;
     }
 }

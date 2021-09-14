@@ -44,6 +44,7 @@ public class UserController {
         model.addAttribute("receivePaper",user.isReceivePaper());
         model.addAttribute("favoriteFrameworks",user.getFavoriteFrameworks());
         model.addAttribute("gender",user.getGender());
+        model.addAttribute("favoriteNumber",user.getFavoriteNumber());
         return "userlist";
     }
 
@@ -59,5 +60,19 @@ public class UserController {
         webFrameworkList.add("Struts 2");
         webFrameworkList.add("Apache Hadoop");
         return webFrameworkList;
+    }
+
+    /**
+     * 单选按钮(多项)
+     * @return
+     */
+    @ModelAttribute("numbersList")
+    public List<String> getNumbersList(){
+        List<String> numbersList = new ArrayList<String>();
+        numbersList.add("5");
+        numbersList.add("24");
+        numbersList.add("8");
+        numbersList.add("25");
+        return numbersList;
     }
 }

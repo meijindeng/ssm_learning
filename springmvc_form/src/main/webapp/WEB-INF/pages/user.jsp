@@ -37,6 +37,10 @@
             </td>
         </tr>
         <tr>
+            <td><form:label path="favoriteNumber">喜欢的数字：</form:label></td>
+            <td><form:radiobuttons path="favoriteNumber" items="${numbersList}" /></td>
+        </tr>
+        <tr>
             <td colspan="2">
                 <input type="submit" value="提交"/>
             </td>
