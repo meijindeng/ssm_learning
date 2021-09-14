@@ -32,6 +32,10 @@
             }
         %></td>
     </tr>
+    <tr>
+        <td>性别：</td>
+        <td>${(gender=="M"? "男" : "女")}</td>
+    </tr>
 </table>
 </body>
 </html>

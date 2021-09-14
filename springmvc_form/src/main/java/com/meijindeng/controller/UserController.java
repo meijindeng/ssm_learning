@@ -43,6 +43,7 @@ public class UserController {
         model.addAttribute("address",user.getAddress());
         model.addAttribute("receivePaper",user.isReceivePaper());
         model.addAttribute("favoriteFrameworks",user.getFavoriteFrameworks());
+        model.addAttribute("gender",user.getGender());
         return "userlist";
     }
 

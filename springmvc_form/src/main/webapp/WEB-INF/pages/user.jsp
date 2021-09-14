@@ -30,6 +30,13 @@
             <td><form:checkboxes items="${webFrameworkList}" path="favoriteFrameworks" /></td>
         </tr>
         <tr>
+            <td><form:label path="gender">性别：</form:label></td>
+            <td>
+                <form:radiobutton path="gender" value="M" label="男" />
+                <form:radiobutton path="gender" value="F" label="女" />
+            </td>
+        </tr>
+        <tr>
             <td colspan="2">
                 <input type="submit" value="提交"/>
             </td>
