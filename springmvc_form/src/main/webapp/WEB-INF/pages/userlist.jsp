@@ -20,6 +20,10 @@
         <td>地址：</td>
         <td>${address}</td>
     </tr>
+    <tr>
+        <td>是否订阅新闻</td>
+        <td>${receivePaper}</td>
+    </tr>
 </table>
 </body>
 </html>

@@ -11,6 +11,8 @@ public class User {
 
     private String address;
 
+    private boolean receivePaper;
+
     public String getUsername() {
         return username;
     }
@@ -33,5 +35,13 @@ public class User {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public boolean isReceivePaper() {
+        return receivePaper;
+    }
+
+    public void setReceivePaper(boolean receivePaper) {
+        this.receivePaper = receivePaper;
     }
 }
