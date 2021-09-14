@@ -18,6 +18,10 @@
             <td><form:password path="password" /></td>
         </tr>
         <tr>
+            <td><form:label path="address">地址：</form:label></td>
+            <td><form:textarea path="address" rows="5" cols="30" /></td>
+        </tr>
+        <tr>
             <td colspan="2">
                 <input type="submit" value="提交"/>
             </td>

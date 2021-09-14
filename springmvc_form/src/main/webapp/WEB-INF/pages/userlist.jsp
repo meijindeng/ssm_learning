@@ -16,6 +16,10 @@
         <td>密码：</td>
         <td>${password}</td>
     </tr>
+    <tr>
+        <td>地址：</td>
+        <td>${address}</td>
+    </tr>
 </table>
 </body>
 </html>
