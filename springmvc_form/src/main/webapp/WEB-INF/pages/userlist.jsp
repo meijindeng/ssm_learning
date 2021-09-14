@@ -40,6 +40,10 @@
         <td>喜欢的数字：</td>
         <td>${favoriteNumber}</td>
     </tr>
+    <tr>
+        <td>国家：</td>
+        <td>${country}</td>
+    </tr>
 </table>
 </body>
 </html>

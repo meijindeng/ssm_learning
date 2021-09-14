@@ -41,6 +41,13 @@
             <td><form:radiobuttons path="favoriteNumber" items="${numbersList}" /></td>
         </tr>
         <tr>
+            <td><form:label path="country">所在国家：</form:label></td>
+            <td><form:select path="country">
+                <form:option value="NONE" label="请选择..." />
+                <form:options items="${countryList}" />
+            </form:select></td>
+        </tr>
+        <tr>
             <td colspan="2">
                 <input type="submit" value="提交"/>
             </td>

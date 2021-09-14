@@ -19,6 +19,8 @@ public class User {
 
     private String favoriteNumber;//喜欢的数字
 
+    private String country;//国家
+
     public String getUsername() {
         return username;
     }
@@ -73,5 +75,13 @@ public class User {
 
     public void setFavoriteNumber(String favoriteNumber) {
         this.favoriteNumber = favoriteNumber;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
     }
 }
