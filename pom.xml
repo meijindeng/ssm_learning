@@ -12,6 +12,7 @@
     <modules>
         <module>springmvc_helloworld</module>
         <module>springmvc_form</module>
+        <module>springmvc_mapping</module>
     </modules>
     <!--版本控制-->
     <properties>

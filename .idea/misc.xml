@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/springmvc_form" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc_helloworld" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc_mapping" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
