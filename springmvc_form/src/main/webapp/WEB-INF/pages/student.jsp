@@ -21,6 +21,11 @@
             <td><form:label path="id">编号：</form:label></td>
             <td><form:input path="id" /></td>
         </tr>
+        <%--<tr>
+            &lt;%&ndash;隐藏字段域&ndash;%&gt;
+            <td></td>
+            <td><form:hidden path="id" value="1000"/></td>
+        </tr>--%>
         <tr>
             <td colspan="2">
                 <input type="submit" value="提交表单"/>
